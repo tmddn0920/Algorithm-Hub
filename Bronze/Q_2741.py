@@ -1,5 +1,3 @@
-a = input()
-b = input()
-c = input()
-print(int(a) + int(b) - int(c))
-print(int(a + b) - int(c))
+num = int(input())
+for i in range(1, num + 1):
+    print(i)
